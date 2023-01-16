@@ -9,13 +9,13 @@ class BookingTest extends AbstractListener {
   private bookingId: String;
 
   bookingBody: any = {
-    firstname: 'Sang',
-    lastname: 'Nguyen',
+    firstname: 'Mates',
+    lastname: 'Pasqualini',
     totalprice: 123,
     depositpaid: true,
     bookingdates: {
-      checkin: '2018-01-01',
-      checkout: '2019-01-01'
+      checkin: '2023-01-01',
+      checkout: '2024-01-01'
     },
     additionalneeds: 'Breakfast'
   };
